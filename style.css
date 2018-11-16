@@ -1,0 +1,177 @@
+body{
+    height: 100vh;
+    font-family: 'Roboto Slab', serif;
+}
+/*used np padding in some where*/
+.no-pad {
+	padding-left:0;
+	padding-right:0;
+	
+}
+
+
+
+/*used in read more*/
+
+.left-side{
+    float: right;
+    color: #e6005c;
+}
+
+.left-side:hover{
+    color:  #ffb3cd;
+}
+/*end of read more*/
+
+
+
+/* start of nav ,, navbar have to use imp due to color*/
+
+.navbar{
+    background-color: #ffb3cd !important;
+
+}
+
+.nav-link{
+     color:  #e6005c !important;
+	 font-size:30px;
+	 padding:30px !important;;	 	
+}
+
+#navbarNav{
+ display:flex;
+ justify-content: flex-end;	
+	}
+.navbar-brand{
+    color:  #e6005c !important;
+	padding-left:20px;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Courgette', cursive;
+}
+/*end of nav*/
+
+
+
+/*banner-images*/
+
+.banner-image{
+	padding: 0px;
+	width:100%;
+	background-image: url(images/winter.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+	 height:950px;
+}
+/*test color change of main banner*/
+.hero-txt{
+	color: #e6005c;
+	padding-top:20%;
+}
+.off-ofr{
+	font-size:60px;
+	}
+.welcome-head{
+	font-weight:bold;
+	font-family: 'Courgette', cursive;
+	
+	}
+	.lg-para{
+		font-size:25px;
+	}
+.btn-outline-success{
+	color: #e6005c;
+	border-color:#ffb3cd;
+}
+.btn-outline-success:hover{
+	background-color:#ffb3cd ;
+	color:#e6005c;
+	border-color:#e6005c;
+	
+	}
+/*test color change of main banner*/
+
+/*want to higlight banner*/
+
+.head-title{
+    margin: 50px 0px 16px 0px;
+	color: #e6005c;
+}
+.off-para{ 
+	 margin: 50px 0px; 
+	}
+	
+.head-center{
+	text-align:center;
+	color: #e6005c;
+	  margin: 30px 0px;
+	 font-family: 'Courgette', cursive;
+}
+
+/*class will be put soon in para*/
+
+p{
+    font-size: 16px;
+}
+/*other item section*/
+.other-item{
+	text-align:center;
+	margin:30px 0px;
+	font-family: 'Courgette', cursive;
+	 color: #e6005c;
+	  font-weight:bold
+	
+	
+}
+
+/*hightlight head*/
+.color-theme{
+    color: #e6005c;
+	text-align:center;  
+	padding-top: 50px;
+}
+/*para img centre*/
+.content-center{	
+     text-align:center; 
+	 padding:0px 16px 0px 16px;
+	 margin: 30px 0px;
+	 }
+/*img space */
+.img-space{
+    margin: 30px 0px;
+}
+
+
+/*start footer*/
+footer{
+    color: #e6005c;
+    margin: 30px 0px 0px 0px;
+	width:100%;
+    background-color: #ffb3cd;
+	padding:30px;
+     
+}
+.footer-head{
+	font-size:30px;
+	font-weigth : bold;
+}
+
+.color-pink{
+    color: #e6005c;
+	font-size:20px;
+}
+
+.color-pink :hover{
+   cursor: pointer;
+    color:#eb4c89;
+}
+.footer-links p a {
+	color: #e6005c;
+	
+}
+.footer-links p a:hover {
+	color: #eb4c89;
+	text-decoration:none;
+}
+/*end od footer*/
